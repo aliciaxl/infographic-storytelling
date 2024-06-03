@@ -11,7 +11,7 @@ let imageGroup = [
 
 function preload(){
     changa = loadFont('ChangaOne-Regular.ttf');
-    bg = loadImage('gradient-1336854_1280.jpg');
+    bg = loadImage('gradient-7239130_1280.jpg');
     images.push(loadImage('mh1.png'));
     images.push(loadImage('mh2.png'));
     images.push(loadImage('mh3.png'));
@@ -59,10 +59,10 @@ function isMouseOver(elem) {
 }
 
 
-fill('white');
-    textSize(12);
-    textAlign(CENTER);
-    text(mouseX + ',' + mouseY, mouseX, mouseY);    
+// fill('white');
+//     textSize(12);
+//     textAlign(CENTER);
+//     text(mouseX + ',' + mouseY, mouseX, mouseY);    
 
 
 
